@@ -1,0 +1,63 @@
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.darklight23-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #cccccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.darklight23-btn:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #ffffff;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input+.darklight23-btn {
+    background-color: #73c3eb;
+}
+
+input:checked+.darklight23-btn {
+    background-color: #38444d;
+}
+
+input:focus+.darklight23-btn {
+    box-shadow: 0 0 1px #21292e;
+}
+
+input:checked+.darklight23-btn:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.darklight23-btn.round {
+    border-radius: 34px;
+}
+
+.darklight23-btn.round:before {
+    border-radius: 50%;
+}

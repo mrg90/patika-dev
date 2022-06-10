@@ -1,0 +1,35 @@
+/* dark.css */
+body {
+  color: #eee;
+  background: #1d2a35;
+}
+
+body a {
+  color: #bbb;
+}
+
+hr {
+  border: 0;
+  border: 1px solid #38444d !important;
+  margin: 20px 0;
+}
+
+.w23-top,
+.top-bg-dark-23 {
+  color: #fff;
+  background: #000;
+}
+
+.w23-button:hover {
+  color: #fff !important;
+  background-color: #38444d !important
+}
+
+code,
+kbd,
+pre,
+samp {
+    background: #15202b;
+    color: #ffffff;
+    font-weight: bold;
+}

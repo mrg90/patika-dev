@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kodluyoruz ilk Repo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/light.css" rel="stylesheet" id="theme_23" />
+    <link href="css/toggle.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"> </script>
+</head>
+
+<body>
+    <!-- Sidebar (hidden by default) -->
+    <nav class="w23-sidebar w23-bar-block w23-card w23-top w23-xlarge w23-animate-left"
+        style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w23_close()" class="w23-bar-item w23-button">X Kapat</a>
+        <a href="#ilkrepo" class="w23-bar-item w23-button">Kodluyoruz ilk Repo</a>
+        <a href="#installation" class="w23-bar-item w23-button">Installation</a>
+        <a href="#usage" class="w23-bar-item w23-button">Usage</a>
+        <a href="#contributing" class="w23-bar-item w23-button">Contributing</a>
+        <a href="#license" class="w23-bar-item w23-button">License</a>
+        <a href="#mygithub" class="w23-bar-item w23-button">Github Repom</a>
+    </nav>
+
+    <!-- Top menu -->
+    <div class="w23-top top-bg-light-23">
+        <div class="w23-xlarge" style="max-width:1200px;margin:auto">
+            <div class="w23-button w23-padding-16 w23-left" onclick="w23_open()">☰</div>
+            <div class="w23-padding-16 w23-right">
+                <label class="switch">
+                    <input type="checkbox" id="darklight23-ckb" onclick="swapStyleSheet('css/dark.css')">
+                    <span class="darklight23-btn round"></span>
+                </label>
+            </div>
+            <div class="w23-center w23-padding-16">Kodluyoruz ilk Repo</div>
+        </div>
+    </div>
+
+    <!-- !SAYFA İÇERİĞİ! -->
+    <div class="w23-main w23-content w23-padding" style="max-width:1200px;margin-top:100px">
+        <div class="w23-row-padding w23-padding-16" id="ilkrepo">
+            <!-- Kodluyoruz ilk Repo Alanı -->
+            <h1>Kodluyoruz ilk Repo</h1>
+            <p>Bu repo <a href="https://www.kodluyoruz.org/">Kodluyoruz</a> Front-End Eğitiminde oluşturduğumuz ilk
+                repo.
+                İçerisinde bir adet README dosyası, bir adet de index.html barındırıyor.</p>
+            <img src="https://user-images.githubusercontent.com/17506206/170322551-c567911c-118d-494a-b922-9f8463a1f315.png"
+                alt="23 Github kodluyoruzilkrepo Resmi" class="w23-image" style="display:block;margin:auto" width="800"
+                height="533" />
+        </div>
+        <br />
+        <!-- Installation Alanı -->
+        <div class="w23-container w23-padding-32" id="installation">
+            <h1>Installation</h1>
+            <p>Öncelikle projeyi clonelayın.</p>
+            <pre>
+    git clone https://github.com/devpenn/kodluyoruzilkrepo.git
+    </pre>
+        </div>
+        <br />
+        <!-- Usage Alanı -->
+        <div class="w23-container w23-padding-32" id="usage">
+            <h1>Usage</h1>
+            <p>Projeyi cloneladıktan sonra Visual Studio Code programında açınız.</p>
+            <br />
+            <p>Linux için:</p>
+            <pre>
+    cd kodluyoruzilkrepo
+    code .
+    </pre>
+        </div>
+        <br />
+        <!-- Contributing Alanı -->
+        <div class="w23-container w23-padding-32" id="contributing">
+            <h1>Contributing</h1>
+            <p>Pull requestler kabul edilir. Büyük değişiklikler için, lütfen önce neyi değiştirmek istediğinizi
+                tartışmak
+                için
+                bir konu açınız.</p>
+        </div>
+        <br />
+        <!-- License Alanı -->
+        <div class="w23-container w23-padding-32" id="license">
+            <h1>License</h1>
+            <p><a href="https://choosealicense.com/licenses/mit/">MIT</a></p>
+        </div>
+        <br />
+        <hr />
+        <!-- Footer -->
+        <footer class="w23-row-padding w23-padding-32">
+            <div class="w23-padding-32 w23-left">
+                <p>Düzenleyen <a href="https://www.gurselcetin.com/" target="_blank">23 Design Studio</a></p>
+            </div>
+            <!-- My Github Alanı -->
+            <div class="w23-container w23-padding-32 w23-right" id="mygithub">
+                <a href="https://github.com/devpenn/kodluyoruzilkrepo">Github Repom</a>
+            </div>
+        </footer>
+        <!-- End page content -->
+    </div>
+    <script>
+        // Script to open and close sidebar
+        function w23_open() {
+            document.getElementById("mySidebar").style.display = "block";
+        }
+        function w23_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }   
+    </script>
+    <script>
+        document.getElementById('darklight23-ckb').onclick = function () {
+            if (this.checked) {
+                document.getElementById('theme_23').href = 'css/dark.css';
+            }
+            else {
+                document.getElementById('theme_23').href = 'css/light.css';
+            }
+        };
+    </script>
+</body>
+
+</html>

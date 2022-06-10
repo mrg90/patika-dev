@@ -1,0 +1,39 @@
+/* light.css */
+
+body {
+  background: #fff;
+}
+
+body a {
+  color: #0178af;
+}
+
+hr {
+  border: 0;
+  border: 1px solid #eee;
+  margin: 20px 0;
+}
+
+.w23-top,
+.top-bg-light-23 {
+  color: #000;
+  background: #fff;
+}
+
+.w23-button:hover {
+  color: #000 !important;
+  background-color: #ddd !important
+}
+
+code,
+kbd,
+pre,
+samp {
+  background: #ccc;
+  color: #535353;
+  font-weight: bold;
+}
+
+.w23-image {
+  box-shadow: rgba(98, 98, 98, 1) 0px 3px 8px;
+}

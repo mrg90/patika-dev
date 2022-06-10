@@ -1,2 +1,1 @@
-# patika-dev
-Patika eğitimleri ödevleri
+# Patika eğitimleri ödevleri

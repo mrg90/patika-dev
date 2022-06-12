@@ -1,2 +1,2 @@
-# Tüm patika.dev html dersi ödevleri
+# Tüm patika.dev HTML dersi ödevleri
 Patikayı seviyorum <3

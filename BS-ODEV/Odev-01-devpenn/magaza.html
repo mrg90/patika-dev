@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Mağaza - Müzik Aletleri Satış Sitesi Örneği</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top">
+            <a class="navbar-brand" href="index.html">Devpenn</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Anasayfa <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="magaza.html">Mağaza</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hakkimizda.html">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="iletisim.html">İletişim</a>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-light">
+                    Bildirimler <span class="badge badge-dark">4</span>
+                </button>
+                <a class="nav-link" href="#">Sepetim(0)</a>
+                <a class="nav-link" href="#">Hesabım</a>
+            </div>
+        </nav>
+    </header>
+    <br class="my-5">
+    <div class="row page-header text-center">
+        <div class="col-md-8">
+            <h1 class="display-1">Mağaza</h1>
+        </div>
+        <div class="col-md-4">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Anasayfa</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Mağaza</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <br class="my-5">
+    <main role="main my-5" class="container">
+        <div class="row">
+            <div class="col-sm-11">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Ürünlerde Ara...">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Ara</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1">
+                <div class="dropdown">
+                    <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-expanded="false">
+                        Sırala
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left"
+                        aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Akıllı sıralama</a>
+                        <a class="dropdown-item" href="#">Fiyata göre sırala</a>
+                        <a class="dropdown-item" href="#">En yeniye göre sırala</a>
+                        <a class="dropdown-item" href="#">En eskiye göre sırala</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <ul class="list-group sticky-top">
+                    <li class="list-group-item active" aria-current="true">Tüm Ürünler</li>
+                    <li class="list-group-item"><a href="#">Pianolar</a></li>
+                    <li class="list-group-item"><a href="#">Tuşlular</a></li>
+                    <li class="list-group-item"><a href="#">Gitarlar</a></li>
+                    <li class="list-group-item"><a href="#">Yaylılar</a></li>
+                    <li class="list-group-item"><a href="#">Nefesliler</a></li>
+                    <li class="list-group-item"><a href="#">Vurmalılar</a></li>
+                    <li class="list-group-item"><a href="#">Aksesuarlar</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-9">
+                <div class="row">
+                    <div class="col col-md-4 mb-5">
+                        <div class="card" style="width: 18rem;">
+                            <img src=".\img\arp-devpenn.png" class="card-img-top" alt="Arp">
+                            <div class="card-body">
+                                <h5 class="card-title text-left">Arp <span class="badge badge-danger">Yeni</span>
+                                </h5>
+                                <h4 class="card-text text-right"><strong>$0</strong></h4>
+                                <a href="#" class="btn btn-warning">Sepete Ekle</a>
+                                <a href="#" class="btn btn-outline-success">Hemen Al</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-4 mb-5">
+                        <div class="card" style="width: 18rem;">
+                            <img src=".\img\Bateri-devpenn.png" class="card-img-top" alt="Bateri">
+                            <div class="card-body">
+                                <h5 class="card-title text-left">Bateri</h5>
+                                <h4 class="card-text text-right"><strong>$0</strong></h4>
+                                <a href="#" class="btn btn-warning">Sepete Ekle</a>
+                                <a href="#" class="btn btn-outline-success">Hemen Al</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-md-4 mb-5">
+                        <div class="card" style="width: 18rem;">
+                            <img src=".\img\gitar-devpenn.png" class="card-img-top" alt="Gitar">
+                            <div class="card-body">
+                                <h5 class="card-title text-left">Gitar</h5>
+                                <h4 class="card-text text-right"><strong>$0</strong></h4>
+                                <a href="#" class="btn btn-warning">Sepete Ekle</a>
+                                <a href="#" class="btn btn-outline-success">Hemen Al</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-md-4 mb-5">
+                        <div class="card" style="width: 18rem;">
+                            <img src=".\img\keman-devpenn.png" class="card-img-top" alt="Keman">
+                            <div class="card-body">
+                                <h5 class="card-title text-left">Keman</h5>
+                                <h4 class="card-text text-right"><strong>$0</strong></h4>
+                                <a href="#" class="btn btn-warning">Sepete Ekle</a>
+                                <a href="#" class="btn btn-outline-success">Hemen Al</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-md-4 mb-5">
+                        <div class="card" style="width: 18rem;">
+                            <img src=".\img\piano-devpenn.png" class="card-img-top" alt="Piano">
+                            <div class="card-body">
+                                <h5 class="card-title text-left">Piano</h5>
+                                <h4 class="card-text text-right"><strong>$0</strong></h4>
+                                <a href="#" class="btn btn-warning">Sepete Ekle</a>
+                                <a href="#" class="btn btn-outline-success">Hemen Al</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-md-4 mb-5">
+                        <div class="card" style="width: 18rem;">
+                            <img src=".\img\saksafon-devpenn.png" class="card-img-top" alt="Saksafon">
+                            <div class="card-body">
+                                <h5 class="card-title text-left">Saksafon</h5>
+                                <h4 class="card-text text-right"><strong>$0</strong></h4>
+                                <a href="#" class="btn btn-warning">Sepete Ekle</a>
+                                <a href="#" class="btn btn-outline-success">Hemen Al</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-md-4 mb-5">
+                        <div class="card" style="width: 18rem;">
+                            <img src=".\img\tamborin-devpenn.png" class="card-img-top" alt="Tamborin">
+                            <div class="card-body">
+                                <h5 class="card-title text-left">Tamborin</h5>
+                                <h4 class="card-text text-right"><strong>$0</strong></h4>
+                                <a href="#" class="btn btn-warning">Sepete Ekle</a>
+                                <a href="#" class="btn btn-outline-success">Hemen Al</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-md-4 mb-5">
+                        <div class="card" style="width: 18rem;">
+                            <img src=".\img\midi-klavye-devpenn.png" class="card-img-top" alt="Midi Klavye">
+                            <div class="card-body">
+                                <h5 class="card-title text-left">Midi Klavye</h5>
+                                <h4 class="card-text text-right"><strong>$0</strong></h4>
+                                <a href="#" class="btn btn-warning">Sepete Ekle</a>
+                                <a href="#" class="btn btn-outline-success">Hemen Al</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-md-4 mb-5">
+                        <div class="card" style="width: 18rem;">
+                            <img src=".\img\cello-devpenn.png" class="card-img-top" alt="Çello">
+                            <div class="card-body">
+                                <h5 class="card-title text-left">Çello</h5>
+                                <h4 class="card-text text-right"><strong>$0</strong></h4>
+                                <a href="#" class="btn btn-warning">Sepete Ekle</a>
+                                <a href="#" class="btn btn-outline-success">Hemen Al</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav aria-label="...">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled btn-warning">
+                    <span class="page-link">Önceki</span>
+                </li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item" aria-current="page">
+                    <span class="page-link">2</span>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Sonraki</a>
+                </li>
+            </ul>
+        </nav>
+    </main>
+    <br class="my-5">
+    <footer class="footer mt-auto py-2 text-center">
+        <p class="mx-3"><a href="https://github.com/devpenn" target="_blank">Devpenn</a> tarafından <img
+                src="./img/heart-icon.png" alt="Aşk ile yapıldı"> ile yapıldı.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

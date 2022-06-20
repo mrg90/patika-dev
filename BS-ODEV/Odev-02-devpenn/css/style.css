@@ -1,0 +1,57 @@
+::placeholder {
+  color: gray !important;
+}
+
+.profileImage {
+  border-radius: 100%;
+  max-width: 40px;
+}
+
+.profileImageList {
+  border-radius: 100%;
+  max-width: 60px;
+  border: 2px solid #f00;
+  padding: 2px;
+}
+
+.profileImgSm {
+  border-radius: 100%;
+  max-width: 20px;
+}
+
+.instaLogo {
+  max-width: 100px;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+}
+
+.navbar a {
+  color: black;
+}
+
+.instaFeedBodyWrap {
+  margin-top: 70px;
+}
+
+.input-group input {
+  width: 260px;
+  background: #e9ecef;
+  border-left: 0;
+  color: gray;
+}
+
+.input-group input:focus {
+  width: 400px;
+  background: #e9ecef;
+  text-shadow: none !important;
+}
+
+.input-group i {
+  background: #e9ecef;
+  color: gray;
+}

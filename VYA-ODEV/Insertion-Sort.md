@@ -1,4 +1,4 @@
-# Proje 1 - Insertion Sort
+# Insertion Sort Ödevi - patika.dev
 
 ---
 
